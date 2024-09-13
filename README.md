@@ -9,4 +9,4 @@ setter method in class component can merge but in useState you should do it manu
 newLine1
 
 
-we can call components inside the callback function of map method, but with key property
+we can call components inside the callback function of map method, but with key property which can not be accessed in child component
