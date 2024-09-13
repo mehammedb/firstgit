@@ -7,3 +7,6 @@ if there are many setter method and if they receive the argument other than func
 But if they receive function as argument, they execute all  
 setter method in class component can merge but in useState you should do it manually  
 newLine1
+
+
+g
