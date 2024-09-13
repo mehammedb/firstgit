@@ -10,3 +10,11 @@ newLine1
 
 
 any jsx tag needs key property if it is iterated. key pro can not be accessed in child component
+
+pure class component vs regular class component  
+pure re-renders if prevstate and/or prevProp differs from current in shallow comparision.(===)  
+regular component always re-renders since the componentShouldUpdate value is always true  
+we can export functional components using react.memo() to substitute pure class components with functional components(pure class component = memo functional component)  
+
+
+portal is render component outside of root id, it uses for modal..
