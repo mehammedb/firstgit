@@ -9,4 +9,4 @@ setter method in class component can merge but in useState you should do it manu
 newLine1
 
 
-g
+we can call components inside the callback function of map method, but with key property
