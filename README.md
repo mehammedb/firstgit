@@ -9,5 +9,4 @@ setter method in class component can merge but in useState you should do it manu
 newLine1
 
 
-we can call components inside the callback function of map method, but with key property which can not be accessed in child component.  
-it needs key propery if it is called in array or iteration
+any jsx tag needs key property if it is iterated. key pro can not be accessed in child component
