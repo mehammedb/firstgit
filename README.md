@@ -22,7 +22,8 @@ portal is render component outside of root id, it uses for modal..
   # DATE  
     
 date from node to datetime: as it is  
-date from node to timestamp: as it is but assuming the timezone as system's timezone not regardless of session time zone  
+date from node to timestamp: as it is but assuming the timezone as system's timezone regardless of session time zone  
 
-date from itself db to db: bothe takes date as it is like above example. but timestamp here takes timezone from session not system. if we take date now() from itself from db, it will lead us to error if field type is datetime and session is out of our assumption
+date from itself db to db: bothe takes date as it is like above example. but timestamp here takes timezone from session not system. if we take date now() from itself from db, it will lead us to error if field type is datetime and session is out of our assumption  
+but timezone is explicitly define, nodejs first convert it into systems timezon and send to mysql while mysql session timezon also converts it into its own session timezon and insert it.
 
