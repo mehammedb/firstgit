@@ -18,6 +18,17 @@ we can export functional components using react.memo() to substitute pure class 
 
 
 portal is render component outside of root id, it uses for modal..  
+HOC/high order components are functions that receive component as argument and return it with props(counter state and increement method)  
+dont forget {...this.props} if there are other props in the up of HOC functions.  
+
+
+#useeffect  
+is to perform sideeffects like updating the DOM & data fetching from API.  
+is replacement of componentdidmount,willunmount & didupdate.  
+will be executed after every rendder of component if no dependency. empty array means once. so focus on its dependency for performancr issue.  
+returned function inside callback of use effect method is executed when unmounting. so use cleanup method there.  
+deffinig function inside useefect is better
+
 
   # DATE  
     
