@@ -38,3 +38,6 @@ date from node to timestamp: as it is but assuming the timezone as system's time
 date from itself db to db: bothe takes date as it is like above example. but timestamp here takes timezone from session not system. if we take date now() from itself from db, it will lead us to error if field type is datetime and session is out of our assumption  
 but timezone is explicitly define, nodejs first convert it into systems timezon and send to mysql while mysql session timezon also converts it into its own session timezon and insert it.
 
+# FLEX  
+align-content has priority over align-items based on my experience
+
