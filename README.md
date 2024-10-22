@@ -39,5 +39,17 @@ date from itself db to db: bothe takes date as it is like above example. but tim
 but timezone is explicitly define, nodejs first convert it into systems timezon and send to mysql while mysql session timezon also converts it into its own session timezon and insert it.
 
 # FLEX  
-align-content has priority over align-items based on my experience
+align-content has priority over align-items based on my experience  
+
+
+# NEXTJS  
+[folderName]: it is dynamic routing  
+[...folderName]: it is catch all segment with at least 1 segment{matching route)  
+[[...folderName]]: the same to above but with at least 0 segment. if the route ends with parent folder, no 404 page will be renderd  
+_folderName indicates the folder is private and any route on the browser can not access it  
+(folderName): folder name with paranthesis is used to group ui components and exclueded from routing system  
+(.)folderName uses to match segments in the same level  
+(..)folderName uses to match segments one level above  
+(..)(..)folderName uses to match segments 2 level above  
+(...)folderName uses to match segments from the root diretory
 
