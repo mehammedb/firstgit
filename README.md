@@ -53,3 +53,4 @@ _folderName indicates the folder is private and any route on the browser can not
 (..)(..)folderName uses to match segments 2 level above  
 (...)folderName uses to match segments from the root diretory
 
+route.ts has priotity over page.tsx
